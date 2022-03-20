@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 simple:
   envVal: This is a simple env value of default.
 ---
@@ -13,15 +13,16 @@ spring:
     activate:
       on-profile: test
 server:
-  port: 8181
+  port: 8282
 simple:
   envVal: This is a simple env value of test profile.
+      
 ---
 spring:
   config:
     activate:
       on-profile: prod
 server:
-  port: 8881
+  port: 8882
 simple:
   envVal: This is a simple env value of prod profile.
