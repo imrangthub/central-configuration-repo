@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:9099}
+  port: ${PORT:9090}
 dmz:
   microservices: config-service,edge-gateway,edge-service,guardian,discovery-eureka
 spring:
